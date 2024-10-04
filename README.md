@@ -1,24 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Introduction 📖
 
-## Getting Started
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), utilising [TypeScript](https://www.typescriptlang.org/) to strongly check types/props and provide helpful intelisense, and the utility-first CSS framework [Tailwind](https://tailwindcss.com/) as the styling library and the headless CMS [Prismic](https://prismic.io/).
 
-First, run the development server:
+## Running This Project 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Prerequisites:
+1. Make sure you already have prismic account
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run this project, follow the instructions below:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Open the terminal, and navigate the root directory for this project.
+2. Add in the environment variables in a `.env.development` file. More information found in the next section.
+3. Run `npm install`, and wait for dependencies to install.
+4. Run `npm run dev` or `yarn dev` or `pnpm dev`, where a local instance of this website will be initiated e.g localhost:3000
+5. Run `npm run slicemachine`, where a local instance of slicemachine will be initiated e.g localhost:9999
+
+Open NextJS [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open Slicemachine [http://localhost:9999](http://localhost:999) with your browser to see the result.
+
+
+## Environment Variables 🔒
+
+There are a few environmental variables required to run this project. As mentioned previously, each website setup requires it's own `.env.development` file within it's root directory.
+
+The required variables are:
+
+-   **PRISMIC_KEY**: Found within the relevant project on our Prismic account
 
 ## Learn More
 
