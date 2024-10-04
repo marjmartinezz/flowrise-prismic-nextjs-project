@@ -399,9 +399,7 @@ export interface FeaturesSliceDefaultPrimaryFeaturesItemItem {
    * - **API ID Path**: features.default.primary.features_item[].icon
    * - **Documentation**: https://prismic.io/docs/field#select
    */
-  icon: prismic.SelectField<
-    "calendar " | "bargraph" | "clover " | "hourglass "
-  >;
+  icon: prismic.SelectField<"calendar" | "bargraph" | "clover " | "hourglass ">;
 
   /**
    * Title field in *Features → Default → Primary → features Item*
