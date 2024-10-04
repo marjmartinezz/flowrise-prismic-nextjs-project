@@ -8,7 +8,7 @@ import { PrismicNextImage } from "@prismicio/next";
 import clsx from "clsx";
 
 import Bounded from "@/app/components/Bounded";
-import Heading   from "@/app/components/Heading";
+import Heading    from "@/app/components/Heading";
 
 const components: JSXMapSerializer = {
   heading2: ({ children }) => (
