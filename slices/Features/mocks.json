@@ -26,7 +26,7 @@
 								"icon",
 								{
 									"__TYPE__": "FieldContent",
-									"value": "clover ",
+									"value": "clover",
 									"type": "Select"
 								}
 							],
@@ -71,7 +71,7 @@
 								"icon",
 								{
 									"__TYPE__": "FieldContent",
-									"value": "hourglass ",
+									"value": "bargraph",
 									"type": "Select"
 								}
 							],
@@ -116,7 +116,7 @@
 								"icon",
 								{
 									"__TYPE__": "FieldContent",
-									"value": "bargraph",
+									"value": "clover",
 									"type": "Select"
 								}
 							],
@@ -161,7 +161,7 @@
 								"icon",
 								{
 									"__TYPE__": "FieldContent",
-									"value": "hourglass ",
+									"value": "clover",
 									"type": "Select"
 								}
 							],
